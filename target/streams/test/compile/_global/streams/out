@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/HelloTest.scala:8:14: not found: type Hello[0m
+[0m[[0m[31merror[0m] [0m[0m    test(new Hello) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/PassThroughTest.scala:8:14: not found: type PassthroughGenerator[0m
+[0m[[0m[31merror[0m] [0m[0m    test(new PassthroughGenerator(3)) { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

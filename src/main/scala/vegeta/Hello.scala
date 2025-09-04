@@ -4,7 +4,7 @@
  * 
  * Blinking LED: the FPGA version of Hello World
  */
-
+package vegeta
 import chisel3._
 
 /**

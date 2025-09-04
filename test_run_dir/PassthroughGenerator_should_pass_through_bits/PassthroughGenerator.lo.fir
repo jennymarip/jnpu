@@ -24,8 +24,8 @@ circuit PassthroughGenerator :
     input io_in : UInt<3>
     output io_out : UInt<3>
 
-    inst c of Hello @[PassThroughGenerator.scala 9:17]
-    node _io_out_T = and(io_in, c.io_led) @[PassThroughGenerator.scala 10:19]
-    io_out <= _io_out_T @[PassThroughGenerator.scala 10:10]
+    inst c of Hello @[PassThroughGenerator.scala 10:17]
+    node _io_out_T = and(io_in, c.io_led) @[PassThroughGenerator.scala 11:19]
+    io_out <= _io_out_T @[PassThroughGenerator.scala 11:10]
     c.clock <= clock
     c.reset <= reset

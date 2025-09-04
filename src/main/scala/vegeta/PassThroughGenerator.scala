@@ -1,3 +1,4 @@
+package vegeta
 import chisel3._
 import Hello._
 // Chisel Code, but pass in a parameter to set widths of ports
