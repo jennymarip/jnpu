@@ -1,0 +1,49 @@
+$date
+2025-09-08T08:47+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module PassthroughGenerator $end
+ $var wire 3 ! io_out $end
+ $var wire 1 " c $end
+ $var wire 3 # io_in $end
+ $var wire 1 $ clock $end
+ $var wire 1 * reset $end
+  $scope module c $end
+   $var wire 1 % clock $end
+   $var wire 1 & blkReg $end
+   $var wire 32 ' cntReg $end
+   $var wire 1 ( io_led $end
+   $var wire 1 ) reset $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0"
+b000 #
+0$
+b00000000000000000000000000000000 '
+0%
+0&
+0(
+0)
+b000 !
+0*
+$end
+#0
+1)
+1*
+#1
+1$
+1%
+#6
+b000 #
+0$
+0%
+0)
+0*

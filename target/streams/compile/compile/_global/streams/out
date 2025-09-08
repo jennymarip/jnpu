@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:17:52: overloaded method apply with alternatives:[0m
-[0m[[0m[31merror[0m] [0m[0m  (idx: Int)chisel3.SInt <and>[0m
-[0m[[0m[31merror[0m] [0m[0m  (p: chisel3.UInt)chisel3.SInt[0m
-[0m[[0m[31merror[0m] [0m[0m cannot be applied to ()[0m
-[0m[[0m[31merror[0m] [0m[0m        res(i) := weight_buffer(i) * io.left_in(i).data() + io.up_in(i)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:12:33: not found: value Ouput[0m
+[0m[[0m[31merror[0m] [0m[0m        val weight_buffer_out = Ouput(Vec(num_mac, SInt(32.W)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

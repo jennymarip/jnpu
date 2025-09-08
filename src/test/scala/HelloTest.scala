@@ -1,5 +1,5 @@
 // HelloTest.scala
-import vegeta._
+package vegeta
 import chiseltest._
 import org.scalatest.flatspec.AnyFlatSpec
 
