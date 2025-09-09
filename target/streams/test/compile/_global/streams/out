@@ -1,6 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/SPUTest.scala:13:34: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Seq[Int][0m
-[0m[[0m[31merror[0m] [0m[0m required: chisel3.Vec[chisel3.SInt][0m
-[0m[[0m[31merror[0m] [0m[0m          u.io.weight_in.poke(Seq(11, 24))[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/SPUTest.scala:6:8: object Ramdom is not a member of package util[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean Random?[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.util.Ramdom[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/SPUTest.scala:12:26: not found: type Ramdom[0m
+[0m[[0m[31merror[0m] [0m[0m          val rand = new Ramdom[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

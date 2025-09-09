@@ -1,4 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:19:52: value weight_index is not a member of chisel3.Vec[chisel3.SInt][0m
-[0m[[0m[31merror[0m] [0m[0m        res(i) := weight_buffer(i) * io.left_in(i).weight_index(i) + io.up_in(i)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:4:8: object log2ceil is not a member of package chisel3.util[0m
+[0m[[0m[31merror[0m] [0m[0mdid you mean log2Ceil?[0m
+[0m[[0m[31merror[0m] [0m[0mimport chisel3.util.log2ceil[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:12:48: not found: value log2ceil[0m
+[0m[[0m[31merror[0m] [0m[0m        val index_in = Input(Vec(num_mac, UInt(log2ceil(blk_size).W)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/SPU.scala:16:46: not found: value log2ceil[0m
+[0m[[0m[31merror[0m] [0m[0m    val weight_index = Reg(Vec(num_mac, UInt(log2ceil(blk_size).W)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
