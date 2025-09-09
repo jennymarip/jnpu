@@ -22,9 +22,7 @@ class SPUTest extends AnyFlatSpec with ChiselScalatestTester{
           val up_in = Seq.fill(reduction_factor)(rand.nextInt(100))
           for(i <- 0 until reduction_factor)
               u.io.up_in(i).poke(up_in(i))
-          val blk0 = Seq.fill(blk_size)(rand.nextInt(100))
-          val blk1 = Seq.fill(blk_size)(rand.nextInt(100))
-          val blks = Seq(blk0, blk1)
+          val blks = Seq.fill(reduction_factor)(Seq.fill(blk_size)(rand.nextInt(100)))
           for (i <- 0 until reduction_factor){
             for(j <- 0 until blk_size)
                 u.io.left_in(i)(j).poke(blks(i)(j))

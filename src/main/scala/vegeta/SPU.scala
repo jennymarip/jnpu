@@ -22,3 +22,10 @@ class SPU extends Module {
 
     io.down_out := res
 }
+
+/**
+ * An object extending App to generate the Verilog code.
+ */
+object SPU extends App {
+  println(getVerilogString(new SPU))
+}

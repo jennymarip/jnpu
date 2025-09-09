@@ -8,6 +8,10 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/PassthroughGenerator$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta/config$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta/Hello$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/Hello$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta/Hello$.class[0m
