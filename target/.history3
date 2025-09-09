@@ -67,3 +67,10 @@
 1757326258210:test
 1757326303534:testOnly vegeta.SPUTest -- -DwriteVcd=1
 1757326357174:exit
+1757379518448:testOnly vegeta.SPUTest
+1757379657894:exit
+1757381064889:testOnly vegeta.SPUTest
+1757381573547:[error] /home/zhanglei/00/work1/src/test/scala/SPUTest.scala:20:21: reassignment to val\n[error]           blk0.data = Seq(10, 20, 30, 40)\n[error]                     ^\n[error] /home/zhanglei/00/work1/src/test/scala/SPUTest.scala:21:21: reassignment to val\n[error]           blk1.data = Seq(12, 22, 32, 42)\n[error]                     ^\n[error] two errors found\n[error] (Test / compileIncremental) Compilation failed\n[error] Total time: 4 s, completed Sep 9, 2025, 9:24:29 AM
+1757381584959:exit
+1757381601835:testOnly vegeta.SPUTest
+1757383331910:exit
