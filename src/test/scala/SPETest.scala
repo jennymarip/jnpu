@@ -20,7 +20,13 @@ class SPETest extends AnyFlatSpec with ChiselScalatestTester{
                 }
             }
             u.clock.step(1)
-            println("preload complete")
+            for(i <- 0 until broadcast_factor){
+                for(j <- 0 until reduction_factor){
+                    u.io.weight_out(i)(j).expect(weight_in(i)(j))
+                    u.io.index_out(i)(j).expect(index_in(i)(j))
+                }
+            }
+            println("preload complete!")
             val left_in = Seq.fill(reduction_factor)(Seq.fill(blk_size)(rand.nextInt(100)))
             val up_in = Seq.fill(broadcast_factor)(Seq.fill(reduction_factor)(rand.nextInt(100)))
             for(i <- 0 until broadcast_factor){

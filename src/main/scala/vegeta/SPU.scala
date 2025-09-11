@@ -10,6 +10,8 @@ class SPU extends Module {
         val up_in = Input(Vec(reduction_factor, SInt(32.W)))
         val weight_in = Input(Vec(reduction_factor, SInt(32.W)))
         val index_in = Input(Vec(reduction_factor, UInt(log2Ceil(blk_size).W)))
+        val weight_out = Output(Vec(reduction_factor, SInt(32.W)))
+        val index_out = Output(Vec(reduction_factor, UInt(log2Ceil(blk_size).W)))
         val down_out = Output(Vec(reduction_factor, SInt(32.W)))
     })
     val weight_buffer = Reg(Vec(reduction_factor, SInt(32.W)))
@@ -20,6 +22,8 @@ class SPU extends Module {
     for(i <- 0 until reduction_factor)
         res(i) := weight_buffer(i) * io.left_in(i)(weight_index(i)) + io.up_in(i)
 
+    io.weight_out := weight_buffer
+    io.index_out := weight_index
     io.down_out := res
 }
 
