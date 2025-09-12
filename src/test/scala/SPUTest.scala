@@ -13,6 +13,7 @@ class SPUTest extends AnyFlatSpec with ChiselScalatestTester{
           u.clock.setTimeout(0)
           val weight_in = Seq.fill(reduction_factor)(rand.nextInt(100))
           val index_in = Seq.fill(reduction_factor)(rand.nextInt(blk_size))
+          u.io.weight_load_en.poke(true.B)
           for(i <- 0 until reduction_factor){
               u.io.weight_in(i).poke(weight_in(i))
               u.io.index_in(i).poke(index_in(i))

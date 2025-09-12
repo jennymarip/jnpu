@@ -11,6 +11,7 @@ class SPETest extends AnyFlatSpec with ChiselScalatestTester{
         test(new SPE) { u =>
             val rand = new Random
             u.clock.setTimeout(0)
+            u.io.weight_load_en.poke(true.B)
             val weight_in = Seq.fill(broadcast_factor)(Seq.fill(reduction_factor)(rand.nextInt(100)))
             val index_in = Seq.fill(broadcast_factor)(Seq.fill(reduction_factor)(rand.nextInt(blk_size)))
             for(i <- 0 until broadcast_factor){

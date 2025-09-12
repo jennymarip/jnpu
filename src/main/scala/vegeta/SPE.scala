@@ -10,6 +10,7 @@ class SPE extends Module {
         val up_in = Input(Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))
         val weight_in = Input(Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))
         val index_in = Input(Vec(broadcast_factor, Vec(reduction_factor, UInt(log2Ceil(blk_size).W))))
+        val weight_load_en = Input(Bool())
         val right_out = Output(Vec(reduction_factor, Vec(blk_size, SInt(32.W))))
         val weight_out = Output(Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))
         val index_out = Output(Vec(broadcast_factor, Vec(reduction_factor, UInt(log2Ceil(blk_size).W))))
@@ -21,6 +22,7 @@ class SPE extends Module {
         SPUs(i).io.up_in := io.up_in(i)
         SPUs(i).io.weight_in := io.weight_in(i)
         SPUs(i).io.index_in := io.index_in(i)
+        SPUs(i).io.weight_load_en := io.weight_load_en
         io.weight_out(i) := SPUs(i).io.weight_out
         io.index_out(i) := SPUs(i).io.index_out
         io.down_out(i) := SPUs(i).io.down_out

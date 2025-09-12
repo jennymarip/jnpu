@@ -8,6 +8,7 @@ class vegeta_sa extends Module {
         val left_in = Input(Vec(N_rows, Vec(reduction_factor, Vec(blk_size, SInt(32.W)))))
         val weight_in = Input(Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W)))))
         val index_in = Input(Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, UInt(log2Ceil(blk_size).W)))))
+        val weight_load_en = Input(Bool())
         val output = Output(Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W)))))
     })
     val SPEs = Seq.fill(N_rows)(Seq.fill(N_cols)(Module(new SPE)))
@@ -15,6 +16,7 @@ class vegeta_sa extends Module {
     // SPE之间的连线
     for(i <- 0 until N_rows){
         for (j <- 0 until N_cols){
+            SPEs(i)(j).io.weight_load_en := io.weight_load_en
             // 输入块传递
             if(j == 0){
                 SPEs(i)(j).io.left_in := io.left_in(i)
