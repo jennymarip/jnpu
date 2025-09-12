@@ -1,16 +1,21 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPETest, org.scalatest.tools.Framework$$anon$1@79f8b438, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPUTest, org.scalatest.tools.Framework$$anon$1@79f8b438, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.vegeta_saTest, org.scalatest.tools.Framework$$anon$1@5b2c6fdc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPUTest, org.scalatest.tools.Framework$$anon$1@5b2c6fdc, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPETest, org.scalatest.tools.Framework$$anon$1@5b2c6fdc, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPETest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPE[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_saTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_sa[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPUTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPU[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 819 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 467 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta.SPUTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta.SPETest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta.vegeta_saTest[0m
