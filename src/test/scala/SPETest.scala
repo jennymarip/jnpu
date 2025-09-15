@@ -44,7 +44,7 @@ class SPETest extends AnyFlatSpec with ChiselScalatestTester{
                 for(j <- 0 until reduction_factor)
                     u.io.down_out(i)(j).expect(up_in(i)(j) + weight_in(i)(j) * left_in(j)(index_in(i)(j)))
             }
+            println("SPE SUCCESS!!")
         }
     }
-    println("SPE SUCCESS!!")
 }

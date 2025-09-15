@@ -10,6 +10,7 @@ class vegeta_sa extends Module {
         val index_in = Input(Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, UInt(log2Ceil(blk_size).W)))))
         val weight_load_en = Input(Bool())
         val output = Output(Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W)))))
+        val SPE_output = Output(Vec(N_rows, Vec(N_cols, Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))))
     })
     val SPEs = Seq.fill(N_rows)(Seq.fill(N_cols)(Module(new SPE)))
     val input_zero = VecInit(Seq.fill(broadcast_factor)(VecInit(Seq.fill(reduction_factor)(0.S(32.W)))))
@@ -40,6 +41,11 @@ class vegeta_sa extends Module {
         for(j <- 0 until broadcast_factor){
             for(k <- 0 until reduction_factor)
                 io.output(i)(j)(k) := SPEs(N_rows-1)(i).io.down_out(j)(k)
+        }
+    }
+    for(i <- 0 until N_rows){
+        for(j <- 0 until N_cols){
+            io.SPE_output(i)(j) := SPEs(i)(j).io.down_out
         }
     }
 }

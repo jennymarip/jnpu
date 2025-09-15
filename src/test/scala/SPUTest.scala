@@ -36,7 +36,7 @@ class SPUTest extends AnyFlatSpec with ChiselScalatestTester{
           println("compute complete")
           for (i <- 0 until reduction_factor)
             u.io.down_out(i).expect(up_in(i)+weight_in(i)*blks(i)(index_in(i)))
+          println("SPU SUCCESS!!")
         }
-        println("SPU SUCCESS!!")
     }
 }
