@@ -1,4 +1,10 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/Utils.scala:19:50: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
 [0m[[0m[33mwarn[0m] [0m[0m                        print(weight(i)(j)(k)(t) + ":" + index(i)(j)(k)(t)+" ")[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/Utils.scala:38:47: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        print(data(t)(i)(j)(k)+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/Utils.scala:72:30: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
+[0m[[0m[33mwarn[0m] [0m[0m                print(c(i)(j)+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly vegeta.vegeta_saTest, Some(b7b2489e-0f01-477c-8500-b515b0d8b443), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/zhanglei/00/work1/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/Utils.scala:19:50: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        print(weight(i)(j)(k)(t) + ":" + index(i)(j)(k)(t)+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/main/scala/vegeta/Utils.scala:38:47: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        print(data(t)(i)(j)(k)+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/zhanglei/00/work1/target/scala-2.13/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:53:74: method any2stringadd in object Predef is deprecated (since 2.13.0): Implicit injection of + is deprecated. Convert to String to call +[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                print(u.io.SPE_output(j)(k)(t)(a).peekInt()+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_saTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_sa 1:4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 7 seconds, 232 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 12 s, completed Sep 16, 2025, 3:35:26 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

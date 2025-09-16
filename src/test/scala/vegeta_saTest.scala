@@ -13,21 +13,14 @@ class vegeta_saTest extends AnyFlatSpec with ChiselScalatestTester{
             val rand = new Random
             u.clock.setTimeout(0)
             u.io.weight_load_en.poke(true.B)
-            // 初始化了一个稀疏矩阵(COO)(A)
+            // matrix A(COO)
             val weight_in = Seq.fill(N_rows)(Seq.fill(N_cols)(Seq.fill(broadcast_factor)(Seq.fill(reduction_factor)(rand.nextInt(10)))))
             val index_in = Seq.fill(N_rows)(Seq.fill(N_cols)(Seq.fill(broadcast_factor)(Seq.fill(reduction_factor)(rand.nextInt(blk_size)))))
-            printDataLayout(weight_in, index_in)
-            // 初始化dense矩阵(B)的一列,结构化稀疏测试(1:4,2:4,4:4通用)
-            val input_in = Seq.fill(N_rows)(Seq.fill(reduction_factor)(Seq.fill(blk_size)(rand.nextInt(10))))
-            println("第一列数据块:")
-            for(i <- 0 until N_rows){
-                for(j <- 0 until reduction_factor){
-                    print(" "+i+"."+j+" : ")
-                    for(k <- 0 until blk_size)
-                        print(input_in(i)(j)(k)+" ")
-                }
-                println()
-            }
+            printA(weight_in, index_in)
+            // matrix B(dense)
+            val input_in = Seq.fill(broadcast_factor*N_cols)(Seq.fill(N_rows)(Seq.fill(reduction_factor)(Seq.fill(blk_size)(rand.nextInt(10)))))
+            printB(input_in)
+            compute_C(weight_in, index_in, input_in)
             // load weight
             for(t <- 0 until N_rows){
                 for(i <- 0 until N_cols){
@@ -49,7 +42,7 @@ class vegeta_saTest extends AnyFlatSpec with ChiselScalatestTester{
             for(i <- 0 until N_rows){
                 for(j <- 0 until reduction_factor){
                     for(k <- 0 until blk_size)
-                        u.io.left_in(i)(j)(k).poke(input_in(i)(j)(k))
+                        u.io.left_in(i)(j)(k).poke(input_in(0)(i)(j)(k))
                 }
                 u.clock.step(1)
                 cycleCount = cycleCount + 1
@@ -70,7 +63,7 @@ class vegeta_saTest extends AnyFlatSpec with ChiselScalatestTester{
             var true_res = 0
             for(i <- 0 until N_rows){
                 for(j <- 0 until reduction_factor)
-                    true_res = true_res + weight_in(i)(0)(0)(j)*input_in(i)(j)(index_in(i)(0)(0)(j))
+                    true_res = true_res + weight_in(i)(0)(0)(j)*input_in(0)(i)(j)(index_in(i)(0)(0)(j))
             }
             assert(res==true_res) // 第一列
             println("compute complete!")
