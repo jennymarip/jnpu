@@ -264,6 +264,70 @@ circuit vegeta_sa :
     input io_left_in_7_1_1 : SInt<32>
     input io_left_in_7_1_2 : SInt<32>
     input io_left_in_7_1_3 : SInt<32>
+    input io_left_in_8_0_0 : SInt<32>
+    input io_left_in_8_0_1 : SInt<32>
+    input io_left_in_8_0_2 : SInt<32>
+    input io_left_in_8_0_3 : SInt<32>
+    input io_left_in_8_1_0 : SInt<32>
+    input io_left_in_8_1_1 : SInt<32>
+    input io_left_in_8_1_2 : SInt<32>
+    input io_left_in_8_1_3 : SInt<32>
+    input io_left_in_9_0_0 : SInt<32>
+    input io_left_in_9_0_1 : SInt<32>
+    input io_left_in_9_0_2 : SInt<32>
+    input io_left_in_9_0_3 : SInt<32>
+    input io_left_in_9_1_0 : SInt<32>
+    input io_left_in_9_1_1 : SInt<32>
+    input io_left_in_9_1_2 : SInt<32>
+    input io_left_in_9_1_3 : SInt<32>
+    input io_left_in_10_0_0 : SInt<32>
+    input io_left_in_10_0_1 : SInt<32>
+    input io_left_in_10_0_2 : SInt<32>
+    input io_left_in_10_0_3 : SInt<32>
+    input io_left_in_10_1_0 : SInt<32>
+    input io_left_in_10_1_1 : SInt<32>
+    input io_left_in_10_1_2 : SInt<32>
+    input io_left_in_10_1_3 : SInt<32>
+    input io_left_in_11_0_0 : SInt<32>
+    input io_left_in_11_0_1 : SInt<32>
+    input io_left_in_11_0_2 : SInt<32>
+    input io_left_in_11_0_3 : SInt<32>
+    input io_left_in_11_1_0 : SInt<32>
+    input io_left_in_11_1_1 : SInt<32>
+    input io_left_in_11_1_2 : SInt<32>
+    input io_left_in_11_1_3 : SInt<32>
+    input io_left_in_12_0_0 : SInt<32>
+    input io_left_in_12_0_1 : SInt<32>
+    input io_left_in_12_0_2 : SInt<32>
+    input io_left_in_12_0_3 : SInt<32>
+    input io_left_in_12_1_0 : SInt<32>
+    input io_left_in_12_1_1 : SInt<32>
+    input io_left_in_12_1_2 : SInt<32>
+    input io_left_in_12_1_3 : SInt<32>
+    input io_left_in_13_0_0 : SInt<32>
+    input io_left_in_13_0_1 : SInt<32>
+    input io_left_in_13_0_2 : SInt<32>
+    input io_left_in_13_0_3 : SInt<32>
+    input io_left_in_13_1_0 : SInt<32>
+    input io_left_in_13_1_1 : SInt<32>
+    input io_left_in_13_1_2 : SInt<32>
+    input io_left_in_13_1_3 : SInt<32>
+    input io_left_in_14_0_0 : SInt<32>
+    input io_left_in_14_0_1 : SInt<32>
+    input io_left_in_14_0_2 : SInt<32>
+    input io_left_in_14_0_3 : SInt<32>
+    input io_left_in_14_1_0 : SInt<32>
+    input io_left_in_14_1_1 : SInt<32>
+    input io_left_in_14_1_2 : SInt<32>
+    input io_left_in_14_1_3 : SInt<32>
+    input io_left_in_15_0_0 : SInt<32>
+    input io_left_in_15_0_1 : SInt<32>
+    input io_left_in_15_0_2 : SInt<32>
+    input io_left_in_15_0_3 : SInt<32>
+    input io_left_in_15_1_0 : SInt<32>
+    input io_left_in_15_1_1 : SInt<32>
+    input io_left_in_15_1_2 : SInt<32>
+    input io_left_in_15_1_3 : SInt<32>
     input io_weight_in_0_0_0 : SInt<32>
     input io_weight_in_0_0_1 : SInt<32>
     input io_weight_in_0_1_0 : SInt<32>
@@ -353,6 +417,70 @@ circuit vegeta_sa :
     output io_SPE_output_7_1_0_1 : SInt<32>
     output io_SPE_output_7_1_1_0 : SInt<32>
     output io_SPE_output_7_1_1_1 : SInt<32>
+    output io_SPE_output_8_0_0_0 : SInt<32>
+    output io_SPE_output_8_0_0_1 : SInt<32>
+    output io_SPE_output_8_0_1_0 : SInt<32>
+    output io_SPE_output_8_0_1_1 : SInt<32>
+    output io_SPE_output_8_1_0_0 : SInt<32>
+    output io_SPE_output_8_1_0_1 : SInt<32>
+    output io_SPE_output_8_1_1_0 : SInt<32>
+    output io_SPE_output_8_1_1_1 : SInt<32>
+    output io_SPE_output_9_0_0_0 : SInt<32>
+    output io_SPE_output_9_0_0_1 : SInt<32>
+    output io_SPE_output_9_0_1_0 : SInt<32>
+    output io_SPE_output_9_0_1_1 : SInt<32>
+    output io_SPE_output_9_1_0_0 : SInt<32>
+    output io_SPE_output_9_1_0_1 : SInt<32>
+    output io_SPE_output_9_1_1_0 : SInt<32>
+    output io_SPE_output_9_1_1_1 : SInt<32>
+    output io_SPE_output_10_0_0_0 : SInt<32>
+    output io_SPE_output_10_0_0_1 : SInt<32>
+    output io_SPE_output_10_0_1_0 : SInt<32>
+    output io_SPE_output_10_0_1_1 : SInt<32>
+    output io_SPE_output_10_1_0_0 : SInt<32>
+    output io_SPE_output_10_1_0_1 : SInt<32>
+    output io_SPE_output_10_1_1_0 : SInt<32>
+    output io_SPE_output_10_1_1_1 : SInt<32>
+    output io_SPE_output_11_0_0_0 : SInt<32>
+    output io_SPE_output_11_0_0_1 : SInt<32>
+    output io_SPE_output_11_0_1_0 : SInt<32>
+    output io_SPE_output_11_0_1_1 : SInt<32>
+    output io_SPE_output_11_1_0_0 : SInt<32>
+    output io_SPE_output_11_1_0_1 : SInt<32>
+    output io_SPE_output_11_1_1_0 : SInt<32>
+    output io_SPE_output_11_1_1_1 : SInt<32>
+    output io_SPE_output_12_0_0_0 : SInt<32>
+    output io_SPE_output_12_0_0_1 : SInt<32>
+    output io_SPE_output_12_0_1_0 : SInt<32>
+    output io_SPE_output_12_0_1_1 : SInt<32>
+    output io_SPE_output_12_1_0_0 : SInt<32>
+    output io_SPE_output_12_1_0_1 : SInt<32>
+    output io_SPE_output_12_1_1_0 : SInt<32>
+    output io_SPE_output_12_1_1_1 : SInt<32>
+    output io_SPE_output_13_0_0_0 : SInt<32>
+    output io_SPE_output_13_0_0_1 : SInt<32>
+    output io_SPE_output_13_0_1_0 : SInt<32>
+    output io_SPE_output_13_0_1_1 : SInt<32>
+    output io_SPE_output_13_1_0_0 : SInt<32>
+    output io_SPE_output_13_1_0_1 : SInt<32>
+    output io_SPE_output_13_1_1_0 : SInt<32>
+    output io_SPE_output_13_1_1_1 : SInt<32>
+    output io_SPE_output_14_0_0_0 : SInt<32>
+    output io_SPE_output_14_0_0_1 : SInt<32>
+    output io_SPE_output_14_0_1_0 : SInt<32>
+    output io_SPE_output_14_0_1_1 : SInt<32>
+    output io_SPE_output_14_1_0_0 : SInt<32>
+    output io_SPE_output_14_1_0_1 : SInt<32>
+    output io_SPE_output_14_1_1_0 : SInt<32>
+    output io_SPE_output_14_1_1_1 : SInt<32>
+    output io_SPE_output_15_0_0_0 : SInt<32>
+    output io_SPE_output_15_0_0_1 : SInt<32>
+    output io_SPE_output_15_0_1_0 : SInt<32>
+    output io_SPE_output_15_0_1_1 : SInt<32>
+    output io_SPE_output_15_1_0_0 : SInt<32>
+    output io_SPE_output_15_1_0_1 : SInt<32>
+    output io_SPE_output_15_1_1_0 : SInt<32>
+    output io_SPE_output_15_1_1_1 : SInt<32>
 
     inst SPEs_0_0 of SPE @[vegeta_sa.scala 15:56]
     inst SPEs_0_1 of SPE @[vegeta_sa.scala 15:56]
@@ -370,6 +498,22 @@ circuit vegeta_sa :
     inst SPEs_6_1 of SPE @[vegeta_sa.scala 15:56]
     inst SPEs_7_0 of SPE @[vegeta_sa.scala 15:56]
     inst SPEs_7_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_8_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_8_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_9_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_9_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_10_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_10_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_11_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_11_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_12_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_12_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_13_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_13_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_14_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_14_1 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_15_0 of SPE @[vegeta_sa.scala 15:56]
+    inst SPEs_15_1 of SPE @[vegeta_sa.scala 15:56]
     node _input_zero_WIRE__0 = asSInt(UInt<32>("h0")) @[vegeta_sa.scala 16:{64,64}]
     node _input_zero_WIRE__1 = asSInt(UInt<32>("h0")) @[vegeta_sa.scala 16:{64,64}]
     node _input_zero_WIRE_1_0 = asSInt(UInt<32>("h0")) @[vegeta_sa.scala 16:{64,64}]
@@ -378,14 +522,14 @@ circuit vegeta_sa :
     node input_zero_0_1 = _input_zero_WIRE__1 @[vegeta_sa.scala 16:{29,29}]
     node input_zero_1_0 = _input_zero_WIRE_1_0 @[vegeta_sa.scala 16:{29,29}]
     node input_zero_1_1 = _input_zero_WIRE_1_1 @[vegeta_sa.scala 16:{29,29}]
-    io_output_0_0_0 <= SPEs_7_0.io_down_out_0_0 @[vegeta_sa.scala 43:36]
-    io_output_0_0_1 <= SPEs_7_0.io_down_out_0_1 @[vegeta_sa.scala 43:36]
-    io_output_0_1_0 <= SPEs_7_0.io_down_out_1_0 @[vegeta_sa.scala 43:36]
-    io_output_0_1_1 <= SPEs_7_0.io_down_out_1_1 @[vegeta_sa.scala 43:36]
-    io_output_1_0_0 <= SPEs_7_1.io_down_out_0_0 @[vegeta_sa.scala 43:36]
-    io_output_1_0_1 <= SPEs_7_1.io_down_out_0_1 @[vegeta_sa.scala 43:36]
-    io_output_1_1_0 <= SPEs_7_1.io_down_out_1_0 @[vegeta_sa.scala 43:36]
-    io_output_1_1_1 <= SPEs_7_1.io_down_out_1_1 @[vegeta_sa.scala 43:36]
+    io_output_0_0_0 <= SPEs_15_0.io_down_out_0_0 @[vegeta_sa.scala 43:36]
+    io_output_0_0_1 <= SPEs_15_0.io_down_out_0_1 @[vegeta_sa.scala 43:36]
+    io_output_0_1_0 <= SPEs_15_0.io_down_out_1_0 @[vegeta_sa.scala 43:36]
+    io_output_0_1_1 <= SPEs_15_0.io_down_out_1_1 @[vegeta_sa.scala 43:36]
+    io_output_1_0_0 <= SPEs_15_1.io_down_out_0_0 @[vegeta_sa.scala 43:36]
+    io_output_1_0_1 <= SPEs_15_1.io_down_out_0_1 @[vegeta_sa.scala 43:36]
+    io_output_1_1_0 <= SPEs_15_1.io_down_out_1_0 @[vegeta_sa.scala 43:36]
+    io_output_1_1_1 <= SPEs_15_1.io_down_out_1_1 @[vegeta_sa.scala 43:36]
     io_SPE_output_0_0_0_0 <= SPEs_0_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
     io_SPE_output_0_0_0_1 <= SPEs_0_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
     io_SPE_output_0_0_1_0 <= SPEs_0_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
@@ -450,6 +594,70 @@ circuit vegeta_sa :
     io_SPE_output_7_1_0_1 <= SPEs_7_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
     io_SPE_output_7_1_1_0 <= SPEs_7_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
     io_SPE_output_7_1_1_1 <= SPEs_7_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_0_0_0 <= SPEs_8_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_0_0_1 <= SPEs_8_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_0_1_0 <= SPEs_8_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_0_1_1 <= SPEs_8_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_1_0_0 <= SPEs_8_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_1_0_1 <= SPEs_8_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_1_1_0 <= SPEs_8_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_8_1_1_1 <= SPEs_8_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_0_0_0 <= SPEs_9_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_0_0_1 <= SPEs_9_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_0_1_0 <= SPEs_9_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_0_1_1 <= SPEs_9_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_1_0_0 <= SPEs_9_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_1_0_1 <= SPEs_9_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_1_1_0 <= SPEs_9_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_9_1_1_1 <= SPEs_9_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_0_0_0 <= SPEs_10_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_0_0_1 <= SPEs_10_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_0_1_0 <= SPEs_10_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_0_1_1 <= SPEs_10_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_1_0_0 <= SPEs_10_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_1_0_1 <= SPEs_10_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_1_1_0 <= SPEs_10_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_10_1_1_1 <= SPEs_10_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_0_0_0 <= SPEs_11_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_0_0_1 <= SPEs_11_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_0_1_0 <= SPEs_11_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_0_1_1 <= SPEs_11_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_1_0_0 <= SPEs_11_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_1_0_1 <= SPEs_11_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_1_1_0 <= SPEs_11_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_11_1_1_1 <= SPEs_11_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_0_0_0 <= SPEs_12_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_0_0_1 <= SPEs_12_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_0_1_0 <= SPEs_12_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_0_1_1 <= SPEs_12_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_1_0_0 <= SPEs_12_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_1_0_1 <= SPEs_12_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_1_1_0 <= SPEs_12_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_12_1_1_1 <= SPEs_12_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_0_0_0 <= SPEs_13_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_0_0_1 <= SPEs_13_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_0_1_0 <= SPEs_13_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_0_1_1 <= SPEs_13_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_1_0_0 <= SPEs_13_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_1_0_1 <= SPEs_13_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_1_1_0 <= SPEs_13_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_13_1_1_1 <= SPEs_13_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_0_0_0 <= SPEs_14_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_0_0_1 <= SPEs_14_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_0_1_0 <= SPEs_14_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_0_1_1 <= SPEs_14_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_1_0_0 <= SPEs_14_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_1_0_1 <= SPEs_14_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_1_1_0 <= SPEs_14_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_14_1_1_1 <= SPEs_14_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_0_0_0 <= SPEs_15_0.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_0_0_1 <= SPEs_15_0.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_0_1_0 <= SPEs_15_0.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_0_1_1 <= SPEs_15_0.io_down_out_1_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_1_0_0 <= SPEs_15_1.io_down_out_0_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_1_0_1 <= SPEs_15_1.io_down_out_0_1 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_1_1_0 <= SPEs_15_1.io_down_out_1_0 @[vegeta_sa.scala 48:33]
+    io_SPE_output_15_1_1_1 <= SPEs_15_1.io_down_out_1_1 @[vegeta_sa.scala 48:33]
     SPEs_0_0.clock <= clock
     SPEs_0_0.reset <= reset
     SPEs_0_0.io_left_in_0_0 <= io_left_in_0_0_0 @[vegeta_sa.scala 23:39]
@@ -818,3 +1026,371 @@ circuit vegeta_sa :
     SPEs_7_1.io_index_in_1_0 <= SPEs_6_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
     SPEs_7_1.io_index_in_1_1 <= SPEs_6_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
     SPEs_7_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_8_0.clock <= clock
+    SPEs_8_0.reset <= reset
+    SPEs_8_0.io_left_in_0_0 <= io_left_in_8_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_0_1 <= io_left_in_8_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_0_2 <= io_left_in_8_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_0_3 <= io_left_in_8_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_1_0 <= io_left_in_8_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_1_1 <= io_left_in_8_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_1_2 <= io_left_in_8_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_left_in_1_3 <= io_left_in_8_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_8_0.io_up_in_0_0 <= SPEs_7_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_8_0.io_up_in_0_1 <= SPEs_7_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_8_0.io_up_in_1_0 <= SPEs_7_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_8_0.io_up_in_1_1 <= SPEs_7_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_8_0.io_weight_in_0_0 <= SPEs_7_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_8_0.io_weight_in_0_1 <= SPEs_7_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_8_0.io_weight_in_1_0 <= SPEs_7_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_8_0.io_weight_in_1_1 <= SPEs_7_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_8_0.io_index_in_0_0 <= SPEs_7_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_8_0.io_index_in_0_1 <= SPEs_7_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_8_0.io_index_in_1_0 <= SPEs_7_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_8_0.io_index_in_1_1 <= SPEs_7_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_8_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_8_1.clock <= clock
+    SPEs_8_1.reset <= reset
+    SPEs_8_1.io_left_in_0_0 <= SPEs_8_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_0_1 <= SPEs_8_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_0_2 <= SPEs_8_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_0_3 <= SPEs_8_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_1_0 <= SPEs_8_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_1_1 <= SPEs_8_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_1_2 <= SPEs_8_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_left_in_1_3 <= SPEs_8_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_8_1.io_up_in_0_0 <= SPEs_7_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_8_1.io_up_in_0_1 <= SPEs_7_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_8_1.io_up_in_1_0 <= SPEs_7_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_8_1.io_up_in_1_1 <= SPEs_7_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_8_1.io_weight_in_0_0 <= SPEs_7_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_8_1.io_weight_in_0_1 <= SPEs_7_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_8_1.io_weight_in_1_0 <= SPEs_7_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_8_1.io_weight_in_1_1 <= SPEs_7_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_8_1.io_index_in_0_0 <= SPEs_7_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_8_1.io_index_in_0_1 <= SPEs_7_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_8_1.io_index_in_1_0 <= SPEs_7_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_8_1.io_index_in_1_1 <= SPEs_7_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_8_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_9_0.clock <= clock
+    SPEs_9_0.reset <= reset
+    SPEs_9_0.io_left_in_0_0 <= io_left_in_9_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_0_1 <= io_left_in_9_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_0_2 <= io_left_in_9_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_0_3 <= io_left_in_9_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_1_0 <= io_left_in_9_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_1_1 <= io_left_in_9_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_1_2 <= io_left_in_9_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_left_in_1_3 <= io_left_in_9_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_9_0.io_up_in_0_0 <= SPEs_8_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_9_0.io_up_in_0_1 <= SPEs_8_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_9_0.io_up_in_1_0 <= SPEs_8_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_9_0.io_up_in_1_1 <= SPEs_8_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_9_0.io_weight_in_0_0 <= SPEs_8_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_9_0.io_weight_in_0_1 <= SPEs_8_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_9_0.io_weight_in_1_0 <= SPEs_8_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_9_0.io_weight_in_1_1 <= SPEs_8_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_9_0.io_index_in_0_0 <= SPEs_8_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_9_0.io_index_in_0_1 <= SPEs_8_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_9_0.io_index_in_1_0 <= SPEs_8_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_9_0.io_index_in_1_1 <= SPEs_8_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_9_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_9_1.clock <= clock
+    SPEs_9_1.reset <= reset
+    SPEs_9_1.io_left_in_0_0 <= SPEs_9_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_0_1 <= SPEs_9_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_0_2 <= SPEs_9_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_0_3 <= SPEs_9_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_1_0 <= SPEs_9_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_1_1 <= SPEs_9_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_1_2 <= SPEs_9_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_left_in_1_3 <= SPEs_9_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_9_1.io_up_in_0_0 <= SPEs_8_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_9_1.io_up_in_0_1 <= SPEs_8_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_9_1.io_up_in_1_0 <= SPEs_8_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_9_1.io_up_in_1_1 <= SPEs_8_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_9_1.io_weight_in_0_0 <= SPEs_8_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_9_1.io_weight_in_0_1 <= SPEs_8_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_9_1.io_weight_in_1_0 <= SPEs_8_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_9_1.io_weight_in_1_1 <= SPEs_8_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_9_1.io_index_in_0_0 <= SPEs_8_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_9_1.io_index_in_0_1 <= SPEs_8_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_9_1.io_index_in_1_0 <= SPEs_8_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_9_1.io_index_in_1_1 <= SPEs_8_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_9_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_10_0.clock <= clock
+    SPEs_10_0.reset <= reset
+    SPEs_10_0.io_left_in_0_0 <= io_left_in_10_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_0_1 <= io_left_in_10_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_0_2 <= io_left_in_10_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_0_3 <= io_left_in_10_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_1_0 <= io_left_in_10_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_1_1 <= io_left_in_10_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_1_2 <= io_left_in_10_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_left_in_1_3 <= io_left_in_10_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_10_0.io_up_in_0_0 <= SPEs_9_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_10_0.io_up_in_0_1 <= SPEs_9_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_10_0.io_up_in_1_0 <= SPEs_9_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_10_0.io_up_in_1_1 <= SPEs_9_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_10_0.io_weight_in_0_0 <= SPEs_9_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_10_0.io_weight_in_0_1 <= SPEs_9_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_10_0.io_weight_in_1_0 <= SPEs_9_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_10_0.io_weight_in_1_1 <= SPEs_9_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_10_0.io_index_in_0_0 <= SPEs_9_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_10_0.io_index_in_0_1 <= SPEs_9_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_10_0.io_index_in_1_0 <= SPEs_9_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_10_0.io_index_in_1_1 <= SPEs_9_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_10_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_10_1.clock <= clock
+    SPEs_10_1.reset <= reset
+    SPEs_10_1.io_left_in_0_0 <= SPEs_10_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_0_1 <= SPEs_10_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_0_2 <= SPEs_10_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_0_3 <= SPEs_10_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_1_0 <= SPEs_10_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_1_1 <= SPEs_10_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_1_2 <= SPEs_10_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_left_in_1_3 <= SPEs_10_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_10_1.io_up_in_0_0 <= SPEs_9_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_10_1.io_up_in_0_1 <= SPEs_9_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_10_1.io_up_in_1_0 <= SPEs_9_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_10_1.io_up_in_1_1 <= SPEs_9_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_10_1.io_weight_in_0_0 <= SPEs_9_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_10_1.io_weight_in_0_1 <= SPEs_9_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_10_1.io_weight_in_1_0 <= SPEs_9_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_10_1.io_weight_in_1_1 <= SPEs_9_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_10_1.io_index_in_0_0 <= SPEs_9_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_10_1.io_index_in_0_1 <= SPEs_9_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_10_1.io_index_in_1_0 <= SPEs_9_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_10_1.io_index_in_1_1 <= SPEs_9_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_10_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_11_0.clock <= clock
+    SPEs_11_0.reset <= reset
+    SPEs_11_0.io_left_in_0_0 <= io_left_in_11_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_0_1 <= io_left_in_11_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_0_2 <= io_left_in_11_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_0_3 <= io_left_in_11_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_1_0 <= io_left_in_11_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_1_1 <= io_left_in_11_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_1_2 <= io_left_in_11_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_left_in_1_3 <= io_left_in_11_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_11_0.io_up_in_0_0 <= SPEs_10_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_11_0.io_up_in_0_1 <= SPEs_10_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_11_0.io_up_in_1_0 <= SPEs_10_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_11_0.io_up_in_1_1 <= SPEs_10_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_11_0.io_weight_in_0_0 <= SPEs_10_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_11_0.io_weight_in_0_1 <= SPEs_10_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_11_0.io_weight_in_1_0 <= SPEs_10_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_11_0.io_weight_in_1_1 <= SPEs_10_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_11_0.io_index_in_0_0 <= SPEs_10_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_11_0.io_index_in_0_1 <= SPEs_10_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_11_0.io_index_in_1_0 <= SPEs_10_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_11_0.io_index_in_1_1 <= SPEs_10_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_11_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_11_1.clock <= clock
+    SPEs_11_1.reset <= reset
+    SPEs_11_1.io_left_in_0_0 <= SPEs_11_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_0_1 <= SPEs_11_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_0_2 <= SPEs_11_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_0_3 <= SPEs_11_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_1_0 <= SPEs_11_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_1_1 <= SPEs_11_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_1_2 <= SPEs_11_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_left_in_1_3 <= SPEs_11_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_11_1.io_up_in_0_0 <= SPEs_10_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_11_1.io_up_in_0_1 <= SPEs_10_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_11_1.io_up_in_1_0 <= SPEs_10_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_11_1.io_up_in_1_1 <= SPEs_10_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_11_1.io_weight_in_0_0 <= SPEs_10_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_11_1.io_weight_in_0_1 <= SPEs_10_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_11_1.io_weight_in_1_0 <= SPEs_10_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_11_1.io_weight_in_1_1 <= SPEs_10_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_11_1.io_index_in_0_0 <= SPEs_10_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_11_1.io_index_in_0_1 <= SPEs_10_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_11_1.io_index_in_1_0 <= SPEs_10_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_11_1.io_index_in_1_1 <= SPEs_10_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_11_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_12_0.clock <= clock
+    SPEs_12_0.reset <= reset
+    SPEs_12_0.io_left_in_0_0 <= io_left_in_12_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_0_1 <= io_left_in_12_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_0_2 <= io_left_in_12_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_0_3 <= io_left_in_12_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_1_0 <= io_left_in_12_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_1_1 <= io_left_in_12_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_1_2 <= io_left_in_12_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_left_in_1_3 <= io_left_in_12_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_12_0.io_up_in_0_0 <= SPEs_11_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_12_0.io_up_in_0_1 <= SPEs_11_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_12_0.io_up_in_1_0 <= SPEs_11_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_12_0.io_up_in_1_1 <= SPEs_11_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_12_0.io_weight_in_0_0 <= SPEs_11_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_12_0.io_weight_in_0_1 <= SPEs_11_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_12_0.io_weight_in_1_0 <= SPEs_11_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_12_0.io_weight_in_1_1 <= SPEs_11_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_12_0.io_index_in_0_0 <= SPEs_11_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_12_0.io_index_in_0_1 <= SPEs_11_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_12_0.io_index_in_1_0 <= SPEs_11_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_12_0.io_index_in_1_1 <= SPEs_11_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_12_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_12_1.clock <= clock
+    SPEs_12_1.reset <= reset
+    SPEs_12_1.io_left_in_0_0 <= SPEs_12_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_0_1 <= SPEs_12_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_0_2 <= SPEs_12_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_0_3 <= SPEs_12_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_1_0 <= SPEs_12_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_1_1 <= SPEs_12_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_1_2 <= SPEs_12_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_left_in_1_3 <= SPEs_12_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_12_1.io_up_in_0_0 <= SPEs_11_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_12_1.io_up_in_0_1 <= SPEs_11_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_12_1.io_up_in_1_0 <= SPEs_11_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_12_1.io_up_in_1_1 <= SPEs_11_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_12_1.io_weight_in_0_0 <= SPEs_11_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_12_1.io_weight_in_0_1 <= SPEs_11_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_12_1.io_weight_in_1_0 <= SPEs_11_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_12_1.io_weight_in_1_1 <= SPEs_11_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_12_1.io_index_in_0_0 <= SPEs_11_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_12_1.io_index_in_0_1 <= SPEs_11_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_12_1.io_index_in_1_0 <= SPEs_11_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_12_1.io_index_in_1_1 <= SPEs_11_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_12_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_13_0.clock <= clock
+    SPEs_13_0.reset <= reset
+    SPEs_13_0.io_left_in_0_0 <= io_left_in_13_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_0_1 <= io_left_in_13_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_0_2 <= io_left_in_13_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_0_3 <= io_left_in_13_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_1_0 <= io_left_in_13_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_1_1 <= io_left_in_13_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_1_2 <= io_left_in_13_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_left_in_1_3 <= io_left_in_13_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_13_0.io_up_in_0_0 <= SPEs_12_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_13_0.io_up_in_0_1 <= SPEs_12_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_13_0.io_up_in_1_0 <= SPEs_12_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_13_0.io_up_in_1_1 <= SPEs_12_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_13_0.io_weight_in_0_0 <= SPEs_12_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_13_0.io_weight_in_0_1 <= SPEs_12_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_13_0.io_weight_in_1_0 <= SPEs_12_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_13_0.io_weight_in_1_1 <= SPEs_12_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_13_0.io_index_in_0_0 <= SPEs_12_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_13_0.io_index_in_0_1 <= SPEs_12_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_13_0.io_index_in_1_0 <= SPEs_12_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_13_0.io_index_in_1_1 <= SPEs_12_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_13_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_13_1.clock <= clock
+    SPEs_13_1.reset <= reset
+    SPEs_13_1.io_left_in_0_0 <= SPEs_13_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_0_1 <= SPEs_13_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_0_2 <= SPEs_13_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_0_3 <= SPEs_13_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_1_0 <= SPEs_13_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_1_1 <= SPEs_13_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_1_2 <= SPEs_13_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_left_in_1_3 <= SPEs_13_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_13_1.io_up_in_0_0 <= SPEs_12_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_13_1.io_up_in_0_1 <= SPEs_12_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_13_1.io_up_in_1_0 <= SPEs_12_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_13_1.io_up_in_1_1 <= SPEs_12_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_13_1.io_weight_in_0_0 <= SPEs_12_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_13_1.io_weight_in_0_1 <= SPEs_12_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_13_1.io_weight_in_1_0 <= SPEs_12_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_13_1.io_weight_in_1_1 <= SPEs_12_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_13_1.io_index_in_0_0 <= SPEs_12_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_13_1.io_index_in_0_1 <= SPEs_12_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_13_1.io_index_in_1_0 <= SPEs_12_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_13_1.io_index_in_1_1 <= SPEs_12_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_13_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_14_0.clock <= clock
+    SPEs_14_0.reset <= reset
+    SPEs_14_0.io_left_in_0_0 <= io_left_in_14_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_0_1 <= io_left_in_14_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_0_2 <= io_left_in_14_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_0_3 <= io_left_in_14_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_1_0 <= io_left_in_14_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_1_1 <= io_left_in_14_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_1_2 <= io_left_in_14_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_left_in_1_3 <= io_left_in_14_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_14_0.io_up_in_0_0 <= SPEs_13_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_14_0.io_up_in_0_1 <= SPEs_13_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_14_0.io_up_in_1_0 <= SPEs_13_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_14_0.io_up_in_1_1 <= SPEs_13_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_14_0.io_weight_in_0_0 <= SPEs_13_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_14_0.io_weight_in_0_1 <= SPEs_13_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_14_0.io_weight_in_1_0 <= SPEs_13_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_14_0.io_weight_in_1_1 <= SPEs_13_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_14_0.io_index_in_0_0 <= SPEs_13_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_14_0.io_index_in_0_1 <= SPEs_13_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_14_0.io_index_in_1_0 <= SPEs_13_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_14_0.io_index_in_1_1 <= SPEs_13_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_14_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_14_1.clock <= clock
+    SPEs_14_1.reset <= reset
+    SPEs_14_1.io_left_in_0_0 <= SPEs_14_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_0_1 <= SPEs_14_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_0_2 <= SPEs_14_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_0_3 <= SPEs_14_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_1_0 <= SPEs_14_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_1_1 <= SPEs_14_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_1_2 <= SPEs_14_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_left_in_1_3 <= SPEs_14_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_14_1.io_up_in_0_0 <= SPEs_13_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_14_1.io_up_in_0_1 <= SPEs_13_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_14_1.io_up_in_1_0 <= SPEs_13_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_14_1.io_up_in_1_1 <= SPEs_13_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_14_1.io_weight_in_0_0 <= SPEs_13_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_14_1.io_weight_in_0_1 <= SPEs_13_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_14_1.io_weight_in_1_0 <= SPEs_13_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_14_1.io_weight_in_1_1 <= SPEs_13_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_14_1.io_index_in_0_0 <= SPEs_13_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_14_1.io_index_in_0_1 <= SPEs_13_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_14_1.io_index_in_1_0 <= SPEs_13_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_14_1.io_index_in_1_1 <= SPEs_13_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_14_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_15_0.clock <= clock
+    SPEs_15_0.reset <= reset
+    SPEs_15_0.io_left_in_0_0 <= io_left_in_15_0_0 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_0_1 <= io_left_in_15_0_1 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_0_2 <= io_left_in_15_0_2 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_0_3 <= io_left_in_15_0_3 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_1_0 <= io_left_in_15_1_0 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_1_1 <= io_left_in_15_1_1 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_1_2 <= io_left_in_15_1_2 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_left_in_1_3 <= io_left_in_15_1_3 @[vegeta_sa.scala 23:39]
+    SPEs_15_0.io_up_in_0_0 <= SPEs_14_0.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_15_0.io_up_in_0_1 <= SPEs_14_0.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_15_0.io_up_in_1_0 <= SPEs_14_0.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_15_0.io_up_in_1_1 <= SPEs_14_0.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_15_0.io_weight_in_0_0 <= SPEs_14_0.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_15_0.io_weight_in_0_1 <= SPEs_14_0.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_15_0.io_weight_in_1_0 <= SPEs_14_0.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_15_0.io_weight_in_1_1 <= SPEs_14_0.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_15_0.io_index_in_0_0 <= SPEs_14_0.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_15_0.io_index_in_0_1 <= SPEs_14_0.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_15_0.io_index_in_1_0 <= SPEs_14_0.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_15_0.io_index_in_1_1 <= SPEs_14_0.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_15_0.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]
+    SPEs_15_1.clock <= clock
+    SPEs_15_1.reset <= reset
+    SPEs_15_1.io_left_in_0_0 <= SPEs_15_0.io_right_out_0_0 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_0_1 <= SPEs_15_0.io_right_out_0_1 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_0_2 <= SPEs_15_0.io_right_out_0_2 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_0_3 <= SPEs_15_0.io_right_out_0_3 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_1_0 <= SPEs_15_0.io_right_out_1_0 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_1_1 <= SPEs_15_0.io_right_out_1_1 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_1_2 <= SPEs_15_0.io_right_out_1_2 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_left_in_1_3 <= SPEs_15_0.io_right_out_1_3 @[vegeta_sa.scala 25:39]
+    SPEs_15_1.io_up_in_0_0 <= SPEs_14_1.io_down_out_0_0 @[vegeta_sa.scala 35:37]
+    SPEs_15_1.io_up_in_0_1 <= SPEs_14_1.io_down_out_0_1 @[vegeta_sa.scala 35:37]
+    SPEs_15_1.io_up_in_1_0 <= SPEs_14_1.io_down_out_1_0 @[vegeta_sa.scala 35:37]
+    SPEs_15_1.io_up_in_1_1 <= SPEs_14_1.io_down_out_1_1 @[vegeta_sa.scala 35:37]
+    SPEs_15_1.io_weight_in_0_0 <= SPEs_14_1.io_weight_out_0_0 @[vegeta_sa.scala 33:41]
+    SPEs_15_1.io_weight_in_0_1 <= SPEs_14_1.io_weight_out_0_1 @[vegeta_sa.scala 33:41]
+    SPEs_15_1.io_weight_in_1_0 <= SPEs_14_1.io_weight_out_1_0 @[vegeta_sa.scala 33:41]
+    SPEs_15_1.io_weight_in_1_1 <= SPEs_14_1.io_weight_out_1_1 @[vegeta_sa.scala 33:41]
+    SPEs_15_1.io_index_in_0_0 <= SPEs_14_1.io_index_out_0_0 @[vegeta_sa.scala 34:40]
+    SPEs_15_1.io_index_in_0_1 <= SPEs_14_1.io_index_out_0_1 @[vegeta_sa.scala 34:40]
+    SPEs_15_1.io_index_in_1_0 <= SPEs_14_1.io_index_out_1_0 @[vegeta_sa.scala 34:40]
+    SPEs_15_1.io_index_in_1_1 <= SPEs_14_1.io_index_out_1_1 @[vegeta_sa.scala 34:40]
+    SPEs_15_1.io_weight_load_en <= io_weight_load_en @[vegeta_sa.scala 20:42]

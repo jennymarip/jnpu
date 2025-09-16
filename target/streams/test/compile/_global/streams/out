@@ -1,10 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:20:49: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
-[0m[[0m[33mwarn[0m] [0m[0m                    print(weight_in(i)(0)(0)(j) + " " + index_in(i)(0)(0)(j)+" ")[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:30:48: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:27:48: method + in class Int is deprecated (since 2.13.0): Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`[0m
 [0m[[0m[33mwarn[0m] [0m[0m                        print(input_in(i)(j)(k)+" ")[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:64:66: method any2stringadd in object Predef is deprecated (since 2.13.0): Implicit injection of + is deprecated. Convert to String to call +[0m
-[0m[[0m[33mwarn[0m] [0m[0m                        print(u.io.SPE_output(j)(0)(0)(k).peekInt()+" ")[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/zhanglei/00/work1/src/test/scala/vegeta_saTest.scala:61:74: method any2stringadd in object Predef is deprecated (since 2.13.0): Implicit injection of + is deprecated. Convert to String to call +[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                print(u.io.SPE_output(j)(k)(t)(a).peekInt()+" ")[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
