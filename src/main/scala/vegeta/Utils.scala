@@ -56,7 +56,6 @@ object Utils {
         var n_col:Int = 0
         var broad_num:Int = 0
         var c_i_j:Int = 0
-        println("matrix C (dense)")
         for(i <- 0 until N_cols*broadcast_factor){
             for(j <- 0 until N_cols*broadcast_factor){
                 c_i_j = 0
