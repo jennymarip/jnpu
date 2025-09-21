@@ -1,1 +1,43 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/zhanglei/00/work1/target/scala-2.13/vegeta_2.13-0.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/zhanglei/00/work1/target/scala-2.13/vegeta_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vegeta_sa.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vegeta_sa.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vegeta_sa$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vegeta_sa$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vegeta_sa_unstructure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vegeta_sa_unstructure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/Utils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/config$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vegeta_sa_unstructure$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vegeta_sa_unstructure$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vageta_sa_unstructure$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vageta_sa_unstructure$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPE$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPE$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vageta_sa_unstructure$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vageta_sa_unstructure$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPE$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPE$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPE$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPE$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPE.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPE.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/Utils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/config.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/SPU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/SPU.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta/vageta_sa_unstructure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/zhanglei/00/work1/target/scala-2.13/classes/vegeta/vageta_sa_unstructure.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

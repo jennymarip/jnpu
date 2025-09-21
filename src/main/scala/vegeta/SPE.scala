@@ -4,7 +4,10 @@ import chisel3._
 import chisel3.util.log2Ceil
 
 // SPE
-class SPE extends Module {
+class SPE(
+    val broadcast_factor: Int = broadcast_factor,
+    val reduction_factor: Int = reduction_factor
+) extends Module {
     val io = IO(new Bundle {
         val left_in = Input(Vec(reduction_factor, Vec(blk_size, SInt(32.W))))
         val up_in = Input(Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))
@@ -16,7 +19,7 @@ class SPE extends Module {
         val index_out = Output(Vec(broadcast_factor, Vec(reduction_factor, UInt(log2Ceil(blk_size).W))))
         val down_out = Output(Vec(broadcast_factor, Vec(reduction_factor, SInt(32.W))))
     })
-    val SPUs = Seq.fill(broadcast_factor)(Module(new SPU))
+    val SPUs = Seq.fill(broadcast_factor)(Module(new SPU(reduction_factor)))
     for(i <- 0 until broadcast_factor){
         SPUs(i).io.left_in := io.left_in
         SPUs(i).io.up_in := io.up_in(i)

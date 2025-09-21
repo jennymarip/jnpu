@@ -4,7 +4,9 @@ import chisel3._
 import chisel3.util.log2Ceil
 
 // SPU
-class SPU extends Module {
+class SPU(
+    val reduction_factor: Int = reduction_factor
+) extends Module {
     val io = IO(new Bundle {
         val left_in = Input(Vec(reduction_factor, Vec(blk_size, SInt(32.W))))
         val up_in = Input(Vec(reduction_factor, SInt(32.W)))

@@ -14,7 +14,7 @@ class vegeta_sa extends Module {
     })
     val SPEs = Seq.fill(N_rows)(Seq.fill(N_cols)(Module(new SPE)))
     val input_zero = VecInit(Seq.fill(broadcast_factor)(VecInit(Seq.fill(reduction_factor)(0.S(32.W)))))
-    // SPE之间的连线
+    // wire the SPE
     for(i <- 0 until N_rows){
         for (j <- 0 until N_cols){
             SPEs(i)(j).io.weight_load_en := io.weight_load_en

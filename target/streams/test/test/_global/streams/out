@@ -1,35 +1,21 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.vegeta_saTest, org.scalatest.tools.Framework$$anon$1@2c016962, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPUTest, org.scalatest.tools.Framework$$anon$1@2c016962, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPETest, org.scalatest.tools.Framework$$anon$1@2c016962, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_saTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_sa[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  chisel3.internal.ChiselException: Error: Not in a UserModule. Likely cause: Missed Module() wrap, bare chisel API call, or attempting to construct hardware inside a BlackBox.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.throwException$.apply(Error.scala:169)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.forcedUserModule(Builder.scala:568)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.pushCommand(Builder.scala:625)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.WhenContext.$anonfun$new$1(When.scala:139)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.foreach(Option.scala:437)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.WhenContext.<init>(When.scala:139)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.when$.apply(When.scala:38)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at vegeta.vegeta_saTest.$anonfun$new$15(vegeta_saTest.scala:23)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at vegeta.vegeta_saTest.$anonfun$new$15$adapted(vegeta_saTest.scala:22)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach(Range.scala:190)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSPUTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mSPU[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPUTest, org.scalatest.tools.Framework$$anon$1@291489c8, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.vegeta_saTest, org.scalatest.tools.Framework$$anon$1@291489c8, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(vegeta.SPETest, org.scalatest.tools.Framework$$anon$1@291489c8, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPETest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSPE[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 861 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSPUTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_saTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mvegeta_sa 1:4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 873 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	vegeta.vegeta_saTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta.SPUTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	vegeta.SPETest[0m
-[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
-[0m[[0m[31merror[0m] [0m[0m	vegeta.vegeta_saTest[0m
-[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

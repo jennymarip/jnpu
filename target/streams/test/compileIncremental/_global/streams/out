@@ -2,5 +2,15 @@
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
 [0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 3 products, 3 sources, 5 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/SPETest.scala, ${BASE}/src/test/scala/SPUTest.scala, ${BASE}/src/test/scala/vegeta_saTest.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(vegeta.config$,ModifiedNames(changes = UsedName(N_cols3,[Default]), UsedName(N_cols2,[Default]), UsedName(N_cols1,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe vegeta.config$ has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(N_cols3,[Default]), UsedName(N_cols2,[Default]), UsedName(N_cols1,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) vegeta.config$: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) vegeta.config$.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of vegeta.vegeta_saTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of vegeta.SPUTest. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of vegeta.SPETest. This dependency is not being considered for invalidation.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
